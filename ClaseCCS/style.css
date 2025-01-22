@@ -1,0 +1,254 @@
+/* GLOBAL -----------------------------------------------------------*/
+body{
+    background-color: #ffffff;
+    font-family: lato;
+    margin: 0;
+    color: #112256;
+}
+fieldset{
+    margin: 30px;
+    color:#277740;
+    border: 1px solid #112959;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+legend{
+    padding: 0 20px 0 20px;
+}
+label{
+    font-size: 18px;
+    line-height: 2;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: 3px solid #112256;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #112256;
+    padding: auto;
+    padding: 15px;
+    font-weight: bold;
+} 
+
+/* FONTS -----------------------------------------------------------*/
+
+.tittle__font{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-weight: 700;
+}
+.font__subtittle{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-weight: 600;
+}
+.lista__img{
+    height: 400px;
+    width: 400px;
+}
+.main__tittle{
+    text-align: left;
+    font-size: 70px;
+    margin: 40px;
+    margin-top: 50px;
+}
+.font--green{
+color: #277740;
+}
+.font--blue{
+    color: #112256;
+}
+.box__font{
+    width: 60%;
+}
+.font--text{
+    width: 80vw;
+    margin: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.shadow--span{
+    text-shadow: 3px 3px 14px #112256;
+
+}
+.text--shadow{
+    text-shadow: 10px 8px 14px #112256;
+}
+.font--white{
+    color: #f2f2f2;
+} 
+/* HEADER ----------------------------------------------------------*/
+.background {
+    background-color: #ffffff;
+    /*background-color:#0006;  Color azul con opacidad */
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw; /* Ancho igual al ancho de la ventana del navegador */
+    height: 100vh; /* Alto igual al alto de la ventana del navegador */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-attachment: fixed;
+}
+/* NAV ----------------------------------------------------------*/
+.nav{
+    position: absolute; 
+    width: 100vw;
+    background-color: #ffff ;
+    padding: 10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    display: flex;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 .1px 5px 	#CECBCB;
+}
+.nav__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav__item{
+    margin-right: 80px;
+}
+.nav__link {
+    color: #277740;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;  
+    transition: color 1s ease;
+}
+.nav__link:hover{
+    color: #112256;
+    font-weight: bold;
+    font-size: 28px;
+}
+.icon{
+    height: 75px;
+    width:52px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+/*SECTION INDEX --------------------------------------------*/
+/*SECTION CATALOGO --------------------------------------------*/
+.flexblox{
+    display: flex;
+}
+.box{
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color:#ffff;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 45px #00000077;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 90px;
+}
+.card_tittle{
+    font-size: 50px;
+    text-align: center;
+    color: #56A66A;
+        
+}
+.card_image{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.card_subtittle{
+    font-size: 30px;
+    font-weight: 800px;
+    text-align: center;
+    color: #56A66A;
+
+}
+.card_description{
+    text-align: justify;
+    color: #56A66A;
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 0px;
+
+}
+/*SECTION CONTACTO --------------------------------------------*/
+.submit{
+    padding: auto;
+    width: 150px;
+    margin-top: 80px;
+    letter-spacing: 3px;
+    box-sizing: border-box;
+}
+
+/*QUERRYS -----------------------------------------------------*/
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column; /* Cambia la dirección a columna en dispositivos pequeños */
+        align-items: flex-start; /* Alinea los elementos a la izquierda */
+    }
+    .nav__item {
+        margin-right: 10px;
+        margin-bottom: 10px; /* Espacio entre elementos en dispositivos pequeños */
+    }
+}
+/* FOOTER SECTION ----------------------------------*/
+footer {
+    color: #112256; /* Color del texto */
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+.footer__section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.footer__section h3 {
+    color: #277740; /* Color del título de la sección */
+    font-weight: bold;
+}
+.footer__section a{
+    text-decoration: none;
+}
+/* Estilos para los enlaces de redes sociales */
+.social__icons{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.social__icons a{
+    display: inline-block;
+    margin: 15px;
+}
+.social__icons li{
+    margin-right: 20px;
+}
+.social__icons img {
+    height: 75px;
+    width:52px;
+    object-fit: contain;
+    justify-content: center;
+}
+
+/* Estilos para el aviso de derechos de autor */
+.copyright {
+    margin-top: 20px;
+} 
