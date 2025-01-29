@@ -54,9 +54,9 @@ input{
     width: 400px;
 }
 .main__tittle{
-    text-align: left;
-    font-size: 70px;
-    margin: 40px;
+    text-align: center;
+    font-size: 48px;
+    margin: 10 0px;
     margin-top: 50px;
 }
 .font--green{
@@ -65,42 +65,30 @@ color: #277740;
 .font--blue{
     color: #112256;
 }
-.box__font{
-    width: 60%;
-}
+
 .font--text{
     width: 80vw;
     margin: 40px;
     font-size: 25px;
     font-weight: bold;
 }
-.shadow--span{
-    text-shadow: 3px 3px 14px #112256;
 
-}
-.text--shadow{
-    text-shadow: 10px 8px 14px #112256;
-}
-.font--white{
-    color: #f2f2f2;
-} 
 /* HEADER ----------------------------------------------------------*/
-.background {
-    background-color: #ffffff;
-    /*background-color:#0006;  Color azul con opacidad */
-    background-blend-mode: overlay;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100vw; /* Ancho igual al ancho de la ventana del navegador */
-    height: 100vh; /* Alto igual al alto de la ventana del navegador */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-attachment: fixed;
+.MeserosIndex {
+    position: relative;
+    height: 724px; /* Altura completa de la pantalla */
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 60px;
+    object-fit: cover;
+    border-radius: 12px;
 }
+
+.MeserosIndex img {
+    max-width: 100%; /* Ajusta la imagen al contenedor */
+    max-height: 100%; /* Ajusta la imagen al contenedor */
+}
+
 /* NAV ----------------------------------------------------------*/
 .nav{
     position: absolute; 
@@ -129,7 +117,7 @@ color: #277740;
 }
 .nav__link {
     color: #277740;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;  
     transition: color 1s ease;
@@ -143,53 +131,11 @@ color: #277740;
     height: 75px;
     width:52px;
     object-fit: contain;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 /*SECTION INDEX --------------------------------------------*/
-/*SECTION CATALOGO --------------------------------------------*/
-.flexblox{
-    display: flex;
-}
-.box{
-    width: 400px;
-    margin-left: 80px;
-    margin-top: 30px;
-    background-color:#ffff;
-    border-radius: 20px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0px 0px 45px #00000077;
-    font-family: sans-serif;
-    box-sizing: border-box;
-    margin: 90px;
-}
-.card_tittle{
-    font-size: 50px;
-    text-align: center;
-    color: #56A66A;
-        
-}
-.card_image{
-    height: 300px;
-    width: 300px;
-    border-radius: 15px;
-    box-sizing: border-box;
-}
-.card_subtittle{
-    font-size: 30px;
-    font-weight: 800px;
-    text-align: center;
-    color: #56A66A;
 
-}
-.card_description{
-    text-align: justify;
-    color: #56A66A;
-    font-size: 18px;
-    padding: 10px;
-    padding-top: 0px;
-
-}
+/*SECTION INDEX --------------------------------------------*/
 /*SECTION CONTACTO --------------------------------------------*/
 .submit{
     padding: auto;
@@ -236,16 +182,7 @@ footer {
 }
 .social__icons a{
     display: inline-block;
-    margin: 15px;
-}
-.social__icons li{
-    margin-right: 20px;
-}
-.social__icons img {
-    height: 75px;
-    width:52px;
-    object-fit: contain;
-    justify-content: center;
+    margin: 30px;
 }
 
 /* Estilos para el aviso de derechos de autor */
