@@ -90,18 +90,7 @@ color: #277740;
 }
 
 /* NAV ----------------------------------------------------------*/
-.nav{
-    position: absolute; 
-    width: 100vw;
-    background-color: #ffff ;
-    padding: 10px ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1000;
-    display: flex;
-    position: sticky;
-    top: 0;
+.navbar{
     box-shadow: 0 .1px 5px 	#CECBCB;
 }
 .nav__list{
@@ -113,7 +102,7 @@ color: #277740;
     flex-wrap: wrap;
 }
 .nav__item{
-    margin-right: 80px;
+    margin-right: 100px;
 }
 .nav__link {
     color: #277740;

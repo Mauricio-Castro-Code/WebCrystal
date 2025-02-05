@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalogo |Crystal </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="shortcut icon" href="../Imagenes/small_logo.png" type="img/png">
     <link rel="stylesheet" href="../ClaseCCS/style.css">
     <meta name="description" content="¡Haz que tus eventos en Puebla sean inolvidables con [Nombre de la Alquiladora]! Ofrecemos una amplia selección de vajilla, loza y mobiliario para bodas, fiestas y reuniones. Descubre nuestro catálogo en línea y encuentra todo lo que necesitas para crear la atmósfera perfecta. ¡Contáctanos hoy mismo para planificar tu evento con nosotros!">
@@ -34,25 +35,36 @@
 <body>
     <header>
         <div>
-            <nav class="nav">
-                <img class="icon" src="../Imagenes/Icon_1X1Normal.png" alt="Logo Crystal Alquiladora">
-                <ul class="nav__list"> 
-                    <li class="nav__item"> 
-                        <a href="index.html" class="nav__link link--button" title="Inicio">Inicio</a>
-                    </li>
-                    <li class="nav__item"> 
-                        <a href="servicios.html" class="nav__link link--button" title="Nuestros Servicios">Servicios</a>
-                    </li>
-                    <li class="nav__item"> 
-                        <a href="catalogo.html" class="nav__link link--button" title="Catalogo de Alquiladora Crystal">Catalogo</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="contacto.html" class="nav__link link--button" title="Contactanos">Contacto</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="nosotros.html" class="nav__link link--button" title="Nosotros Alquiladora Crystal">Nosotros</a> 
-                    </li>
-                </ul>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a href="index.html">             
+                        <img class="icon" src="../Imagenes/Iconos/Icon_1X1Normal.png" alt="Logo Crystal Alquiladora">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto gap-3 pe-3"> 
+                            <li class="nav-item me-3">
+                                <a href="index.html" class="nav__link link--button" title="Inicio">Inicio</a>
+                            </li>
+                            <li class="nav-item me-3"> 
+                                <a href="servicios.html" class="nav__link link--button" title="Nuestros Servicios">Servicios</a>
+                            </li>
+                            <li class="nav-item me-3"> 
+                                <a href="catalogo.html" class="nav__link link--button" title="Catálogo de Alquiladora Crystal">Catálogo</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a href="contacto.html" class="nav__link link--button" title="Contáctanos">Contacto</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a href="nosotros.html" class="nav__link link--button" title="Nosotros Alquiladora Crystal">Nosotros</a> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </div>
     </header> 
@@ -86,6 +98,6 @@
     </div> -->
 
 </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
