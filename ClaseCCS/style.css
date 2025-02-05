@@ -189,3 +189,8 @@ footer {
 .copyright {
     margin-top: 20px;
 } 
+
+.carousel img {
+height: 600px;
+width: auto;
+}
