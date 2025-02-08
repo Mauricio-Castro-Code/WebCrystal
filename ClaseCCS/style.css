@@ -49,10 +49,6 @@ input{
     font-style: normal;
     font-weight: 600;
 }
-.lista__img{
-    height: 400px;
-    width: 400px;
-}
 .main__tittle{
     text-align: center;
     font-size: 48px;
@@ -119,9 +115,66 @@ color: #277740;
     margin-left: 40px;
 }
 /*SECTION INDEX --------------------------------------------*/
+
 .container img:hover {
     transform: scale(1.1);
 }
+/* Contenedor de la imagen para el hover */
+.img-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+/* Imagen principal */
+.img-container .img-default {
+    display: block;
+    width: 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Imagen que aparecerá en hover */
+.img-container .img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Cuando pasas el mouse, cambia la imagen */
+.img-container:hover .img-default {
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.img-container:hover .img-hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Estilos para el botón */
+.btn-custom {
+    display: block;
+    text-align: center;
+    background-color: #112959;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    border-radius: 15px;
+}
+
+/* Hover del botón */
+.btn-custom:hover {
+    background-color: #277740;
+    color: white;
+    transform: scale(1.1);
+}
+
 /*SECTION INDEX --------------------------------------------*/
 /*SECTION CONTACTO --------------------------------------------*/
 .submit{
@@ -173,7 +226,12 @@ width: auto;
 .social-icons img:hover {
     transform: scale(1.2); /* Efecto de zoom al pasar el cursor */
 }
-.map-container iframe {
-    border-radius: 15px; /* Bordes redondeados */
-    border: none; /* Elimina el borde negro del iframe */
+.direccion:hover,
+.direccion-link:hover {
+    color: #277740; /* Verde */
+    transition: color 0.3s ease-in-out;
+}
+
+.direccion-link{
+    text-decoration: none;
 }
