@@ -75,8 +75,7 @@ color: #277740;
 
 /* HEADER ----------------------------------------------------------*/
 .MeserosIndex {
-    position: relative;
-    height: 724px; /* Altura completa de la pantalla */
+    height: 10%; /* Altura completa de la pantalla */
     width: 90%;
     margin-left: 5%;
     margin-top: 60px;
@@ -84,10 +83,7 @@ color: #277740;
     border-radius: 12px;
 }
 
-.MeserosIndex img {
-    max-width: 100%; /* Ajusta la imagen al contenedor */
-    max-height: 100%; /* Ajusta la imagen al contenedor */
-}
+
 
 /* NAV ----------------------------------------------------------*/
 .navbar{
@@ -123,7 +119,9 @@ color: #277740;
     margin-left: 40px;
 }
 /*SECTION INDEX --------------------------------------------*/
-
+.container img:hover {
+    transform: scale(1.1);
+}
 /*SECTION INDEX --------------------------------------------*/
 /*SECTION CONTACTO --------------------------------------------*/
 .submit{
@@ -146,40 +144,36 @@ color: #277740;
     }
 }
 /* FOOTER SECTION ----------------------------------*/
+
+
 footer {
     color: #112256; /* Color del texto */
-    padding: 20px;
-    background-color: #f2f2f2;
+    width: 100%;
+    padding: 20px 0;
 }
-.footer__section {
-    margin-bottom: 30px;
-    text-align: center;
-}
-.footer__section h3 {
-    color: #277740; /* Color del título de la sección */
-    font-weight: bold;
-}
-.footer__section a{
-    text-decoration: none;
-}
-/* Estilos para los enlaces de redes sociales */
-.social__icons{
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-.social__icons a{
-    display: inline-block;
-    margin: 30px;
-}
-
-/* Estilos para el aviso de derechos de autor */
-.copyright {
-    margin-top: 20px;
-} 
-
 .carousel img {
-height: 600px;
+height: 20%;
 width: auto;
+}
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px; /* Ajusta el tamaño de los iconos */
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Efecto de zoom al pasar el cursor */
+}
+.map-container iframe {
+    border-radius: 15px; /* Bordes redondeados */
+    border: none; /* Elimina el borde negro del iframe */
 }
