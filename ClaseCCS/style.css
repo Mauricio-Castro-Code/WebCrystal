@@ -20,18 +20,6 @@ label{
     font-size: 18px;
     line-height: 2;
 }
-input{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 6px 8px;
-    border: 3px solid #112256;
-    background-color: transparent;
-    border-radius: 4px;
-    color: #112256;
-    padding: auto;
-    padding: 15px;
-    font-weight: bold;
-} 
 
 /* FONTS -----------------------------------------------------------*/
 
@@ -114,11 +102,108 @@ color: #277740;
     object-fit: contain;
     margin-left: 40px;
 }
-/*SECTION INDEX --------------------------------------------*/
-
-.container img:hover {
-    transform: scale(1.1);
+/*INICIO | COTIZA CON NOSOTROS --------------------------------------------*/
+.btn-transparent {
+    background-color: transparent; /* Fondo transparente */
+    color: #112256; /* Color del texto azul */
+    border: 2px solid #277740; /* Borde azul */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
 }
+
+.btn-transparent:hover {
+    background-color: #112256; /* Fondo azul al pasar el mouse */
+    color: white; /* Color del texto blanco al pasar el mouse */
+}
+/*INICIO | PREGUTANS FRECUENTES --------------------------------------------*/
+/* Descripción */
+.faq-description {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #5a5a5a; /* Gris medio */
+    margin-bottom: 30px;
+}
+
+/* Estilos del acordeón */
+.accordion {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Cada pregunta con margen para separarlas */
+.accordion-item {
+    border: none;
+    margin-bottom: 15px; /* Espaciado entre preguntas */
+}
+
+/* Botones del acordeón */
+.accordion-button {
+    background: none !important;
+    color: #112256 !important; /* Azul */
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    box-shadow: none !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: none !important;
+}
+
+/* Hover en las preguntas */
+.accordion-button:hover {
+    color: #277740 !important; /* Verde */
+}
+
+/* Ícono "+" alineado a la derecha */
+.accordion-button::after {
+    content: "\002B"; /* "+" */
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #112256;
+    transition: transform 0.3s ease;
+    background-image: none !important;
+    width: auto !important;
+    height: auto !important;
+    margin-left: 0 !important;
+    transform: none !important; /* Importante para animaciones */
+}
+
+/* Cambiar icono al abrir */
+.accordion-button:not(.collapsed)::after {
+    content: "\2212"; /* "-" */
+    color: #277740;
+    transform: none !important;
+}
+
+/* Cuerpo del acordeón */
+.accordion-body {
+    font-size: 1.1rem;
+    color: #444; /* Texto gris oscuro */
+    background-color: transparent;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+/*  SERIVICIOS | GALERIA -----------------------------------------*/
+.gallery-container {
+    background-color: #0d1121; /* Fondo oscuro */
+    padding: 20px;
+}
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen */
+    border-radius: 15px; /* Bordes redondeados */
+}
+/* SEPARADOR -----------------------------------------*/
+.separador {
+    width: 100vw; /* Ocupa todo el ancho de la pantalla */
+    height: 50px; /* Altura del separador */
+    background-color: #112256; /* Azul oscuro */
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.8); /* Sombra blanca */
+    margin: 50px 0; /* Espaciado arriba y abajo */
+}
+/* INICIO | CARDS Y VER MAS  -----------------------------------------*/
 /* Contenedor de la imagen para el hover */
 .img-container {
     position: relative;
@@ -175,16 +260,7 @@ color: #277740;
     transform: scale(1.1);
 }
 
-/*SECTION INDEX --------------------------------------------*/
 /*SECTION CONTACTO --------------------------------------------*/
-.submit{
-    padding: auto;
-    width: 150px;
-    margin-top: 80px;
-    letter-spacing: 3px;
-    box-sizing: border-box;
-}
-
 /*QUERRYS -----------------------------------------------------*/
 @media (max-width: 768px) {
     .nav {
