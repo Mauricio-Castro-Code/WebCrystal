@@ -64,45 +64,57 @@
                     </div>
                 </div>
     </nav>
-    <section>
-    <h1>Cotiza tu Alquiler de Sillas y Mesas para Eventos</h1>
-    <h2>Completa el formulario para que nuestro equipo de cotizacion te pueda contactar</h2>
-    <p>mapa con ubicacion , telefono y wha , datos de contacto</p>
-    <p class="description">Ingresá los siguientes datos</p>
-    <form class="formulario"> 
-        <fieldset>
-            <legend>INFORMACIÓN PERSONAL</legend>
-            <!-- <div>   -->
-                <label for="name">Nombre Completo</label> 
-                <input type="text" required placeholder="Icker Antonio Villegas" id="name"> <!--  name es el identificador y es unico por cada campo -->
-            <!--  </div>-->
-            <!-- <div>-->
-                <label for="celphone">Telefono Celular</label>
-                <input type="tel"required placeholder="2226503855" id="celphone" >
-            <!-- </div>  -->
-            <!--<div>-->
-                <label for="mail"> Correo Electronico</label>
-                <input type="email" placeholder="alquiladoracrystal@hotmail.com" id="mail">
-            <!-- </div>-->
-        </fieldset>
-        <fieldset>
-            <legend>INFORMACIÓN DEL EVENTO</legend>
-            <!--<div>-->
-                <label for="date"> Fecha del Evento</label>
-                <input type="date" required id="date">
-            <!-- </div>-->
-            <!--<div>-->
-                <label for="adress"> Dirección del Evento</label>
-                <input type="text" required placeholder="Blvd Valsequillo 1811, Universidades " id="adress">
-            <!-- </div>-->
-            <!--<div>-->
-                <label for="order"> Equipo Requerido</label>
-                <input type="text"required placeholder="Evento para 200 personas. Tablon ,Sillas Tiffany Bcas, Manteleria, Servilletas, Loza y Vajilla" id="order">
-            <!-- </div>-->
-        </fieldset>
-        <input class="submit" type="submit" value="Enviar">
-    </form>
-    </section>
+    
+    <div class="container py-5">
+        
+        <div class="row g-4">
+            <!-- Columna izquierda - Información de contacto -->
+            <div class="col-md-6">
+                <div class=" h-100">
+                    <div class="card-body">
+                        <h2 class="card-title font__subtittle mb-3">Dirección</h2>
+                        <p class="card-text">
+                            Blvd Capitan Carlos Camacho Espiritu #1811<br>
+                            Col. Universidades <br>
+                            Puebla, Pue. <br>
+                            C.P: 72589 <br>
+                        </p>
+
+                        <h2 class="h4 mt-4 mb-3">Teléfonos & WhatsApp</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="tel:2226503588" class="text-decoration-none">(222) 650 35 88</a></li>
+                            <li><a href="tel:2222336166" class="text-decoration-none">(222) 233 61 66</a></li>
+                        </ul>
+
+                        <h2 class="h4 mt-4 mb-3">Correo</h2>
+                        <a href="mailto:alquiladoracrystal@hotmail.com" class="text-decoration-none">
+                            alquiladoracrystal@hotmail.com
+                        </a>
+                        <h2 class="h4 mt-4 mb-3">Horarios de Atención</h2>
+                        <p class="card-text">
+                            Lunes a Viernes <br>
+                            Desde 9:00 a 18:00 hrs<br>
+                            Sabado<br>
+                            Desde 9:00 a 17:00 hrs<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna derecha - Ubicaciones -->
+            <div class="col-md-6">
+                <div class="card-body">
+                    <h2 class="card-title font__subtittle mb-4">Ubicación</h2>
+                        
+                        <!-- Mapa de Google con tu ubicación -->
+                    <div class="mb-4">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.5605519816986!2d-98.20550432479665!3d18.99500548219297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfbf1569b9be85%3A0xd0999233edcea7a4!2sAlquiladora%20Crystal!5e0!3m2!1ses-419!2smx!4v1739504867954!5m2!1ses-419!2smx" width="100%" height="450" style="border:0; border-radius: 14px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer class="footer py-5 border-top">
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5">

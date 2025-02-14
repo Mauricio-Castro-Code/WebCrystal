@@ -186,7 +186,7 @@ color: #277740;
 }
 /*  SERIVICIOS | GALERIA -----------------------------------------*/
 .gallery-container {
-    background-color: #0d1121; /* Fondo oscuro */
+    background-color: #112256; /* Fondo oscuro */
     padding: 20px;
 }
 .gallery img {
@@ -203,7 +203,7 @@ color: #277740;
     box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.8); /* Sombra blanca */
     margin: 50px 0; /* Espaciado arriba y abajo */
 }
-/* INICIO | CARDS Y VER MAS  -----------------------------------------*/
+/* INICIO | CARDS y  DE VER MAS  -----------------------------------------*/
 /* Contenedor de la imagen para el hover */
 .img-container {
     position: relative;
@@ -271,7 +271,31 @@ color: #277740;
         margin-right: 10px;
         margin-bottom: 10px; /* Espacio entre elementos en dispositivos pequeños */
     }
+    
 }
+/*NOSTROS | NUESTRA HISTORIA --------------------------------------------*/
+.justificado {
+    text-align: justify;
+}
+.history-image {
+    width: 100%;
+    border-radius: 14px;
+}
+.history-text {
+    text-align: justify;
+}
+    .custom-bg-primary {
+        background-color: #112256;
+    }
+    .custom-text-primary {
+        color: #112256;
+    }
+    .custom-bg-secondary {
+        background-color: #277740;
+    }
+    .custom-text-secondary {
+        color: #277740;
+    }
 /* FOOTER SECTION ----------------------------------*/
 
 
