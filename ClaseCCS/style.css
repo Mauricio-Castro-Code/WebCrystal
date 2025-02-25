@@ -40,7 +40,6 @@ label{
 .main__tittle{
     text-align: center;
     font-size: 48px;
-    margin: 10 0px;
     margin-top: 50px;
 }
 .font--green{
@@ -59,16 +58,49 @@ color: #277740;
 
 /* HEADER ----------------------------------------------------------*/
 .MeserosIndex {
-    height: 10%; /* Altura completa de la pantalla */
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 60px;
+    width: 100%;
+    height: auto; /* Mantiene la proporción */
+    aspect-ratio: 16 / 9; /* Ajusta según la relación de tu imagen */
     object-fit: cover;
     border-radius: 12px;
 }
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
-
+.whatsapp-icon {
+    width: 60px;  /* Ajusta el tamaño de la imagen */
+    height: 60px;
+    object-fit: contain; /* Evita recortes no deseados */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+.floating-button span {
+    visibility: hidden;
+    opacity: 0;
+    background-color: #277740;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    position: absolute;
+    right: 70px; /* Espaciado respecto al icono */
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    white-space: nowrap;
+}
+.floating-button:hover .whatsapp-icon {
+    transform: scale(1.1);
+}
+.floating-button:hover span {
+    visibility: visible;
+    opacity: 1;
+}
 /* NAV ----------------------------------------------------------*/
 .navbar{
     box-shadow: 0 .1px 5px 	#CECBCB;
@@ -185,9 +217,69 @@ color: #277740;
     border-top: 1px solid #ddd;
 }
 /*  SERIVICIOS | GALERIA -----------------------------------------*/
-.gallery-container {
-    background-color: #112256; /* Fondo oscuro */
-    padding: 20px;
+.seccion-eventos {
+    background-color: #ffffff;
+}
+
+/* Contenedor general */
+.contenedor-eventos {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Estilos del título */
+.titulo-eventos {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #475d4d; /* Verde elegante */
+}
+
+/* Subtítulos */
+.subtitulo-eventos {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #6c8b72;
+}
+
+/* Texto de la descripción */
+.texto-eventos {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Botón */
+.btn-mas-info {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6c8b72;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn-mas-info:hover {
+    background-color: #475d4d;
+}
+
+/* Contenedor de la imagen */
+.contenedor-imagen-eventos {
+    width: 100%;
+    aspect-ratio: 19 / 11 ;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Imagen dentro del contenedor */
+.imagen-eventos {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+    border-radius: 10px; /* Bordes redondeados opcionales */
 }
 .gallery img {
     width: 100%;
@@ -195,6 +287,55 @@ color: #277740;
     object-fit: cover; /* Ajusta la imagen */
     border-radius: 15px; /* Bordes redondeados */
 }
+/* Ajustes generales */
+.gallery-container {
+    background-color: #f2f2f2; /* Fondo oscuro */
+    padding: 20px;
+}
+
+/* Espaciado entre elementos en móviles */
+@media (max-width: 768px) {
+    .gallery {
+        gap: 15px; /* Separa imágenes entre sí */
+    }
+    
+    .gallery img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    
+    /* Ajuste del texto */
+    .texto-eventos {
+        font-size: 1rem;
+        line-height: 1.6; /* Mayor separación de líneas */
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Separar texto e imágenes */
+    .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Ajuste de imágenes dentro de la galería */
+    .gallery div {
+        width: 100%;
+    }
+
+    /* Separar botones de imágenes */
+    .btn {
+        margin-top: 10px;
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+}
+
+
+
 /* SEPARADOR -----------------------------------------*/
 .separador {
     width: 100vw; /* Ocupa todo el ancho de la pantalla */
@@ -208,9 +349,20 @@ color: #277740;
 .img-container {
     position: relative;
     width: 100%;
-    overflow: hidden;
-    border-radius: 8px;
+    height: 400px; /* Ajusta la altura según el diseño */
+    background-color: white; /* Fondo blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ajusta la imagen sin recortar */
+    aspect-ratio: 9 / 16; /* Mantiene la proporción vertical */
+}
+
 
 /* Imagen principal */
 .img-container .img-default {
@@ -296,6 +448,17 @@ color: #277740;
     .custom-text-secondary {
         color: #277740;
     }
+    /*NOSTROS | NUESTRA MISION VISION VALORES --------------------------------------------*/
+    .card-custom {
+        height: 400px; /* Ajusta la altura según lo que necesites */
+        overflow: hidden;
+    }
+    
+    .card-custom .overflow-auto {
+        max-height: 250px; /* Espacio disponible para el texto con scroll */
+        overflow-y: auto;
+        padding-right: 10px; /* Evita que el texto quede pegado al borde */
+    }
 /* FOOTER SECTION ----------------------------------*/
 
 
@@ -334,4 +497,14 @@ width: auto;
 
 .direccion-link{
     text-decoration: none;
+}
+.logo-img {
+    max-width: 100%; /* Se adapta al contenedor */
+    height: auto; /* Mantiene la proporción */
+}
+
+@media (max-width: 768px) {
+    .logo-img {
+        max-width: 250px; /* Reduce el tamaño del logo en pantallas pequeñas */
+    }
 }

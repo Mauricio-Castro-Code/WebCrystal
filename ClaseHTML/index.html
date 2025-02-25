@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio | Crystal </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="../Imagenes/Iconos/Icon_1X1Normal.png " type="img/png">
+    <link rel="shortcut icon" href="../Imagenes/Iconos/favicon_io/favicon.ico " type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="../Imagenes/Iconos/favicon_io/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="../Imagenes/Iconos/favicon_io/android-chrome-192x192.png" type="image/png">
+    <link rel="icon" sizes="512x512" href="../Imagenes/Iconos/favicon_io/android-chrome-512x512.png" type="image/png">
     <link rel="stylesheet" href="../ClaseCCS/style.css">
     <meta name="description" content="¡Haz que tus eventos en Puebla sean inolvidables con [Nombre de la Alquiladora]! Ofrecemos una amplia selección de vajilla, loza y mobiliario para bodas, fiestas y reuniones. Descubre nuestro catálogo en línea y encuentra todo lo que necesitas para crear la atmósfera perfecta. ¡Contáctanos hoy mismo para planificar tu evento con nosotros!">
     <meta name="keywords" content="Alquiler de vajilla Puebla, Alquiler de loza Puebla, Alquiler de mobiliario para fiestas Puebla, Eventos en Puebla, Bodas en Puebla, Fiesta en Puebla, Alquiler de vajilla y loza en Puebla, Alquiler de mobiliario para eventos en Puebla, Alquiler de sillas y mesas Puebla, Alquiler de mantelería Puebla, Alquiladora Crystal">
@@ -35,10 +37,11 @@
 </head>
 
 <body>
+    <!-- Barra de Nav-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a href="index.html">             
-                <img class="icon" src="../Imagenes/Iconos/Icon_1X1Normal.png" alt="Logo Crystal Alquiladora">
+                <img class="icon" src="../Imagenes/Iconos/Icon_1X1Normal.webp" alt="Logo Crystal Alquiladora">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,10 +69,25 @@
             </div>
         </div>
     </nav>
+    <!-- Boton Flotante-->
+    <a href="https://api.whatsapp.com/message/QUYQH75BP5D6J1?autoload=1&app_absent=0" 
+        class="floating-button" target="_blank">
+        <span>Cotiza por WhatsApp</span>
+        <picture>
+        <source srcset="../Imagenes/Iconos/WhatsAppButton.webp" type="image/webp">
+        <img src="../Imagenes/Iconos/WhatsAppButton.png" alt="Cotiza por WhatsApp" class="whatsapp-icon">
+        </picture>
+    </a>
+    <!-- Portada-->
     <header>
         <div>
-            <img src="../Imagenes/Pictures/MainMeseros.webp" class="img-fluid MeserosIndex" alt="Servicio Meseros" loading="lazy">
+            <img src="../Imagenes/Pictures/MainMeseros.webp" 
+                class="img-fluid MeserosIndex" 
+                alt="Servicio Meseros" 
+                loading="lazy"
+                width="1200" height="600">
         </div>
+        
         <div class="box__font">
             <h1 class="main__tittle tittle__font">
                 Renta de Vajilla y Equipo para Eventos en <span class="font--green">Puebla</span> 
@@ -77,7 +95,9 @@
         </div> 
     </header>
     <section>
+        <!-- Separador-->
         <div class="separador"></div>
+        <!-- Renta de Vajillas Luxury-->
         <div class="container my-5">
             <div class=" row align-items-center">
                 <!-- Columna de texto -->
@@ -93,7 +113,7 @@
                     <p class="descripcion">
                         ¡Haz que tu evento luzca espectacular! Explora nuestro catálogo y cotiza con nosotros.
                     </p>
-                    <a href="catalogo.html" class="btn btn-transparent mt-3">Cotiza con Nosotros</a>
+                    <a href="https://api.whatsapp.com/message/QUYQH75BP5D6J1?autoload=1&app_absent=0" target="_blank" class="btn btn-transparent mt-3 mb-4">¡Cotiza Ahora!</a>
                 </div>
                 
                 <!-- Columna de imagen -->
@@ -102,10 +122,10 @@
                 </div>
             </div>
         </div>
-        
-        
+        <!-- Separador-->
         <div class="separador"></div>
-            <div class="container my-5">
+        <!-- Productos Destacados-->
+        <div class="container my-5">
                 <h2 class="color-blue font__subtittle text-center fw-bold mb-4">
                     Vajilla y Equipo para Eventos – Algunos de Nuestros Productos Destacados
                 </h2>
@@ -113,7 +133,31 @@
                     <div class="col">
                         <div class="card border-0">
                             <div class="img-container">
-                                <img src="../Imagenes/Walppaper.webp" class="card-img-top img-default" alt="Alquiladora en Puebla | Renta Cafetera" loading="lazy">
+                                <img src="../Imagenes/Mobiliario/Crossback.webp" class="card-img-top img-default"  alt="Silla Crossback de madera para renta en Puebla"
+                                loading="lazy">
+                                <img src="../Imagenes/Manteleria/Manteleria.jpeg" class="card-img-top img-hover"  title="Renta de Silla Crossback en Puebla" alt="Alquiladora en Puebla | Renta Cafetera" loading="lazy">
+                            </div>
+                            <div class="card-body">
+                                <a href="catalogo.html" class="btn-custom"> Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0">
+                            <div class="img-container">
+                                <img src="../Imagenes/EquipoServicio/Calentador.webp" class="card-img-top img-default" alt="Calentador para exteriores en renta en Puebla, ideal para eventos al aire libre"
+                                loading="lazy">
+                                <img src="../Imagenes/Manteleria/Manteleria.jpeg" class="card-img-top img-hover" title="Renta de Calentador en Puebla" alt="Alquiladora en Puebla | Renta Cafetera" loading="lazy">
+                            </div>
+                            <div class="card-body">
+                                <a href="catalogo.html" class="btn-custom"> Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0">
+                            <div class="img-container">
+                                <img src="../Imagenes/Vajilla/VajillaCuadrada.webp" class="card-img-top img-default" alt="Vajilla en renta en Puebla" loading="lazy">
                                 <img src="../Imagenes/Manteleria/Manteleria.jpeg" class="card-img-top img-hover" alt="Alquiladora en Puebla | Renta Cafetera" loading="lazy">
                             </div>
                             <div class="card-body">
@@ -124,7 +168,7 @@
                     <div class="col">
                         <div class="card border-0">
                             <div class="img-container">
-                                <img src="../Imagenes/Walppaper.webp" class="card-img-top img-default" alt="Alquiladora en Puebla | Renta Cafetera" loading="lazy">
+                                <img src="../Imagenes/Mobiliario/PeriqueraOrganica.webp" class="card-img-top img-default" alt="Renta Periquera Organica en Puebla" loading="lazy">
                                 <img src="../Imagenes/Manteleria/Manteleria.jpeg" class="card-img-top img-hover" alt="Alquiladora en Puebla | Renta Cafetera" loading="lazy">
                             </div>
                             <div class="card-body">
@@ -135,7 +179,7 @@
                     <div class="col">
                         <div class="card border-0">
                             <div class="img-container">
-                                <img src="../Imagenes/Walppaper.webp" class="card-img-top img-default" alt="Alquiladora en Puebla | Renta Cafetera" loading="lazy">
+                                <img src="../Imagenes/Vajilla/BaseDorado.webp" class="card-img-top img-default" alt="Renta Plato Base Dorado " loading="lazy">
                                 <img src="../Imagenes/Manteleria/Manteleria.jpeg" class="card-img-top img-hover" alt="Alquiladora en Puebla | Renta Cafetera" loading="lazy">
                             </div>
                             <div class="card-body">
@@ -146,29 +190,7 @@
                     <div class="col">
                         <div class="card border-0">
                             <div class="img-container">
-                                <img src="../Imagenes/Walppaper.webp" class="card-img-top img-default" alt="Alquiladora en Puebla | Renta Cafetera" loading="lazy">
-                                <img src="../Imagenes/Manteleria/Manteleria.jpeg" class="card-img-top img-hover" alt="Alquiladora en Puebla | Renta Cafetera" loading="lazy">
-                            </div>
-                            <div class="card-body">
-                                <a href="catalogo.html" class="btn-custom"> Ver más</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card border-0">
-                            <div class="img-container">
-                                <img src="../Imagenes/Walppaper.webp" class="card-img-top img-default" alt="Alquiladora en Puebla | Renta Cafetera" loading="lazy">
-                                <img src="../Imagenes/Manteleria/Manteleria.jpeg" class="card-img-top img-hover" alt="Alquiladora en Puebla | Renta Cafetera" loading="lazy">
-                            </div>
-                            <div class="card-body">
-                                <a href="catalogo.html" class="btn-custom"> Ver más</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card border-0">
-                            <div class="img-container">
-                                <img src="../Imagenes/Walppaper.webp" class="card-img-top img-default" alt="Alquiladora en Puebla | Renta Cafetera" loading="lazy">
+                                <img src="../Imagenes/Mobiliario/LuisXV.webp" class="card-img-top img-default" alt="Renta Silla Luis XV Ideal para Eventos" loading="lazy">
                                 <img src="../Imagenes/Manteleria/Manteleria.jpeg" class="card-img-top img-hover" alt="Alquiladora en Puebla | Renta Cafetera" loading="lazy">
                             </div>
                             <div class="card-body">
@@ -177,8 +199,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="container mt-5">
+        </div>
+        <!-- Preguntas y Respuestas-->
+        <div class="container mt-5">
                 <h2 class="color-blue font__subtittle text-center  fw-bold mb-4">¿Necesitas ayuda para planificar tu evento?</h2>
                 <p class="faq-description"> Nuestro equipo de expertos ha preparado este apartado de preguntas frecuentes para que puedas encontrar respuestas rápidas y personalizadas a tus dudas.</p>
                 <div class="accordion mb-5" id="faqAccordion">
@@ -280,23 +303,27 @@
                         </div>
                     </div>
                 </div>
-            </div>
+        </div>
     </section>
+    <!-- Footer-->
     <footer class="footer py-5 border-top">
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
                 <div class="col mb-3">
                     <a href="index.html" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-                        <img src="../Imagenes/Iconos/Logo_Largo.png" alt="Logo Alquiladora Crystal" width="500" height="100">
+                        <img src="../Imagenes/Iconos/Logo_Largo_11zon.webp" 
+                            alt="Logo Alquiladora Crystal" 
+                            class="logo-img">
                     </a>
+                    
                     
                     <p class="text-body-secondary">&copy; 2025 Todos los Derechos Reservados</p>
                     <strong>Renta de Mobiliario en Puebla. Renta de Mesas y Sillas en Puebla. Alquiladora en Puebla.</strong>
                     <!-- Redes Sociales -->
                     <div class="social-icons">
-                        <a href="https://www.facebook.com/AlquilerCrystal?mibextid=AEUHqQ" target="_blank"><img src="../Imagenes/Iconos/Facebook-Icon.png" alt="Logo Facebook Alquiladora Crystal"></a>
-                        <a href="https://www.instagram.com/crystal.alquiladora/" target="_blank"><img src="../Imagenes/Iconos/Instagram-Icon.png" alt="Logo Instagram Alquiladora Crystal"></a>
-                        <a href="https://api.whatsapp.com/message/QUYQH75BP5D6J1?autoload=1&app_absent=0" target="_blank"><img src="../Imagenes/Iconos/WhatsApp-Icon.png" alt="Logo WhatsApp Alquiladora Crystal"></a>
+                        <a href="https://www.facebook.com/AlquilerCrystal?mibextid=AEUHqQ" target="_blank"><img src="../Imagenes/Iconos/Facebook-Icon_11zon.webp" alt="Logo Facebook Alquiladora Crystal"></a>
+                        <a href="https://www.instagram.com/crystal.alquiladora/" target="_blank"><img src="../Imagenes/Iconos/Instagram-Icon_11zon.webp" alt="Logo Instagram Alquiladora Crystal"></a>
+                        <a href="https://api.whatsapp.com/message/QUYQH75BP5D6J1?autoload=1&app_absent=0" target="_blank"><img src="../Imagenes/Iconos/WhatsApp-Icon_11zon.webp" alt="Logo WhatsApp Alquiladora Crystal"></a>
                     </div>
                 </div>
     
@@ -305,23 +332,22 @@
                 <div class="col mb-3">
                     <h5>Horarios</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a class="nav-link p-0 text-body-secondary">Lun - Vier / 9:00 - 18:00</a></li>
-                        <li class="nav-item mb-2"><a class="nav-link p-0 text-body-secondary">Sábado / 9:00 - 17:00</a></li>
+                        <li class="nav-item mb-2"><span class="nav-link p-0 text-body-secondary">Lun - Vier / 9:00 - 18:00</span></li>
+                        <li class="nav-item mb-2"><span class="nav-link p-0 text-body-secondary">Sábado / 9:00 - 17:00</span></li>
                     </ul>
                 </div>
-    
+                
                 <div class="col mb-3">
                     <h5>Productos</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Mobiliario</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Vajilla</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cristaleria</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Manteleria</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Equipo de Servicio</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Equipo para Exteriores</a></li>
+                        <li class="nav-item mb-2"><span class="nav-link p-0 text-body-secondary">Mobiliario</span></li>
+                        <li class="nav-item mb-2"><span class="nav-link p-0 text-body-secondary">Vajilla</span></li>
+                        <li class="nav-item mb-2"><span class="nav-link p-0 text-body-secondary">Cristalería</span></li>
+                        <li class="nav-item mb-2"><span class="nav-link p-0 text-body-secondary">Mantelería</span></li>
+                        <li class="nav-item mb-2"><span class="nav-link p-0 text-body-secondary">Equipo de Servicio</span></li>
+                        <li class="nav-item mb-2"><span class="nav-link p-0 text-body-secondary">Equipo para Exteriores</span></li>
                     </ul>
                 </div>
-    
                 <div class="col mb-3">
                     <h5>Ubicación</h5>
                     <p class="direccion">
