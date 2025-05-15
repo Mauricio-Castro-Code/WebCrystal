@@ -1,0 +1,44 @@
+[
+{
+    "nombre": "Plato Elegante",
+    "descripcion": "Plato blanco de porcelana fina ideal para eventos formales.",
+    "precio": "$15",
+    "categoria": "Vajilla",
+    "imagen": "img/plato.jpg"
+},
+{
+    "nombre": "Silla Tiffany",
+    "descripcion": "Silla clásica para bodas, con acabado blanco perla.",
+    "precio": "$30",
+    "categoria": "Sillas",
+    "imagen": "../Imagenes/Mobiliario/LuisXV.webp"
+},
+{
+    "nombre": "Copa de Cristal",
+    "descripcion": "Cristalería premium para banquetes y celebraciones especiales.",
+    "precio": "$10",
+    "categoria": "Cristalería",
+    "imagen": "img/copa.jpg"
+},
+{
+    "nombre": "Tenedor Dorado",
+    "descripcion": "Cubiertos dorados con acabado brillante y elegante.",
+    "precio": "$5",
+    "categoria": "Vajilla",
+    "imagen": "img/tenedor.jpg"
+},
+{
+    "nombre": "Silla Acolchonada",
+    "descripcion": "Silla cómoda con cojín para largas celebraciones.",
+    "precio": "$35",
+    "categoria": "Sillas",
+    "imagen": "img/silla-acolchonada.jpg"
+},
+{
+    "nombre": "Vaso de Cristal Tallado",
+    "descripcion": "Vaso con diseño elegante y moderno.",
+    "precio": "$8",
+    "categoria": "Cristalería",
+    "imagen": "img/vaso.jpg"
+}
+]
