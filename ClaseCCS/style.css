@@ -1,9 +1,10 @@
-/* GLOBAL -----------------------------------------------------------*/
+/* GLOBAL #f8f4ee-----------------------------------------------------------*/
 body{
     background-color: #ffffff;
     font-family: lato;
     margin: 0;
     color: #112256;
+    overflow-x: hidden;
 }
 fieldset{
     margin: 30px;
@@ -239,7 +240,7 @@ background-color: #277740;
 
 /*-----------------------------------SEPARADOR--------------------------------------------*/
 .separador {
-    width: 100vw; /* Ocupa todo el ancho de la pantalla */
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
     height: 50px; /* Altura del separador */
     background-color: #112256; /* Azul oscuro */
     box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.8); /* Sombra blanca */
@@ -503,60 +504,9 @@ background-color: #277740;
     padding: 20px;
 }
 
-/* Espaciado entre elementos en móviles */
-@media (max-width: 768px) {
-    .gallery {
-        gap: 15px; /* Separa imágenes entre sí */
-    }
-    
-    .gallery img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-        border-radius: 8px;
-    }
-    
-    /* Ajuste del texto */
-    .texto-eventos {
-        font-size: 1rem;
-        line-height: 1.6; /* Mayor separación de líneas */
-        text-align: center;
-        padding: 10px;
-    }
-
-    /* Separar texto e imágenes */
-    .row {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    /* Ajuste de imágenes dentro de la galería */
-    .gallery div {
-        width: 100%;
-    }
-
-    /* Separar botones de imágenes */
-    .btn {
-        margin-top: 10px;
-        padding: 12px 20px;
-        font-size: 1rem;
-    }
-}
-
 /*-----------------------------------CONTACTO--------------------------------------------*/
 
-@media (max-width: 768px) {
-    .nav {
-        flex-direction: column; /* Cambia la dirección a columna en dispositivos pequeños */
-        align-items: flex-start; /* Alinea los elementos a la izquierda */
-    }
-    .nav__item {
-        margin-right: 10px;
-        margin-bottom: 10px; /* Espacio entre elementos en dispositivos pequeños */
-    }
-    
-}
+
 /*-----------------------------------NOSTROS--------------------------------------------*/
 /*NUESTRA MISION VISION VALORES */
 .card-hover {
@@ -616,37 +566,13 @@ background-color: #277740;
 .featurette-divider {
     margin: 5rem 0;
 }
-.featurette-heading {
-    font-weight: bold;
-    color: #112256; /* Color de tu página */
-}
+
 .img-fixed {
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     object-fit: contain; /* Mantiene la imagen completa sin cortes */
     background-color: white; /* O cualquier color de fondo si la imagen no llena el espacio */
 }
-/*Filtros de catalogo*/
-.card-custom {
-border-radius: 1rem;
-border: 1px solid #ccc;
-transition: transform 0.3s ease;
-height: 100%; /* asegura que la tarjeta ocupe el espacio disponible */
-background-color: #fff;
-padding: 1rem;
-}
-
-.card-custom:hover {
-transform: translateY(-5px);
-}
-
-.card-img-top {
-object-fit: cover;
-width: 100%;
-aspect-ratio: 9 / 16; /* relación de aspecto 9:16 */
-border-radius: 0.5rem;
-}
-
 .card-title,
 .card-text {
 color: #112256; /* azul crystal */
@@ -661,20 +587,121 @@ padding-left: 1rem;
 padding-right: 1rem;
 }
 @keyframes fadeInUp {
-    from {
-    opacity: 0;
-    transform: translateY(20px);
-    }
-    to {
-    opacity: 1;
-    transform: translateY(0);
-    }
+from {
+opacity: 0;
+transform: translateY(20px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
 }
 
-.card-animada {
-    animation: fadeInUp 0.6s ease forwards;
-    opacity: 0; /* Oculto por defecto hasta que se anime */
+.card-custom {
+padding: 1rem;
+border-radius: 1rem;
+border: 1px solid #ccc;
+transition: transform 0.3s ease;
+background-color: #fff;
+height: 100%;
+max-width: 100%;
+margin: auto;
+display: flex;
+flex-direction: column;
 }
+
+.card-img-top {
+width: 100%;
+height: 200px;
+object-fit: contain;
+background-color: white;
+border-radius: 0.5rem;
+padding: 10px;
+}
+.color-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid white;
+    box-shadow: 0 0 0 1px #ccc;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.color-dot:hover {
+transform: scale(1.1);
+}
+
+.color-dot.selected {
+box-shadow: 0 0 0 2px #112256;
+}
+
+@media (min-width: 576px) {
+.card-img-top {
+    height: 220px;
+}
+}
+
+@media (min-width: 768px) {
+.card-img-top {
+    height: 240px;
+}
+}
+
+@media (min-width: 992px) {
+.card-img-top {
+    height: 260px;
+}
+}
+.card-body {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.6s ease forwards;
+  }
+  
+  .fade-in.delay {
+    animation-delay: 0.2s;
+  }
+  
+  @keyframes fadeUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  #ver-mas-btn {
+    background-color: #2e7d32; /* Verde tipo material design */
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 999px; /* Borde completamente redondeado */
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  #ver-mas-btn:hover {
+    background-color: #1b5e20;
+    transform: scale(1.03);
+  }
+  
+  #ver-mas-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.4);
+  }
+/* Asegura espaciado entre tarjetas en móvil */
+@media (max-width: 575.98px) {
+    .card-custom {
+      margin-bottom: 1rem;
+    }
+  }
+      
 
 /*-----------------------------------FOOTER--------------------------------------------*/
 
@@ -718,15 +745,10 @@ width: auto;
     max-width: 100%; /* Se adapta al contenedor */
     height: auto; /* Mantiene la proporción */
 }
-
-@media (max-width: 768px) {
-    .logo-img {
-        max-width: 250px; /* Reduce el tamaño del logo en pantallas pequeñas */
-    }
-}
+/*-----------TITTLE---------------------*/
 @media (max-width: 768px) {
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
     
     .hero-subtitle {
@@ -737,6 +759,99 @@ width: auto;
         display: block;
         width: 100%;
         margin: 0 0 15px 0;
+    }
+}
+/*-----------NAVBAR---------------------*/
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column; /* Cambia la dirección a columna en dispositivos pequeños */
+        align-items: flex-start; /* Alinea los elementos a la izquierda */
+    }
+    .nav__item {
+        margin-right: 10px;
+        margin-bottom: 10px; /* Espacio entre elementos en dispositivos pequeños */
+    }
+    .nav__link  { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .navbar-menu a {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .logo-img {
+        max-width: 250px; /* Reduce el tamaño del logo en pantallas pequeñas */
+    }
+}
+
+/*-----------------------------------INICIO | DISEÑO MOVIL--------------------------------------------*/
+/*----------- GALERIA---------------------*/
+@media (max-width: 768px) {
+    .row.row-cols-1 {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+    
+    .row.row-cols-1 > .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .row.row-cols-1 .card {
+        width: 100%;
+    }
+    
+    .row.row-cols-1 .btn-custom {
+        width: 100%;        /* Que el botón use todo el ancho disponible */
+        text-align: center; /* Centrado del texto */
+        padding: 10px;      /* Espaciado cómodo */
+        font-size: 14px;    /* Tamaño adaptable */
+    }
+    }
+
+
+@media (max-width: 768px) {
+    .gallery {
+        gap: 15px; /* Separa imágenes entre sí */
+    }
+    
+    .gallery img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    
+    /* Ajuste del texto */
+    .texto-eventos {
+        font-size: 1rem;
+        line-height: 1.6; /* Mayor separación de líneas */
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Separar texto e imágenes */
+    .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Ajuste de imágenes dentro de la galería */
+    .gallery div {
+        width: 100%;
+    }
+
+    /* Separar botones de imágenes */
+    .btn {
+        margin-top: 10px;
+        padding: 12px 20px;
+        font-size: 1rem;
     }
 }
 

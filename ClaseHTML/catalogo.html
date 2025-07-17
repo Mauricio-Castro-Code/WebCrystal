@@ -258,9 +258,7 @@
       <div class="row featurette align-items-center">
         <!-- Columna de texto -->
         <div class="col-md-7 order-md-1">
-          <h2 class="featurette-heading mb-3 text-primary fw-bold">
-            Descubre Nuestro <span class="text-success">Catálogo </span>
-          </h2>
+          <h2 class="color-blue font__subtittle  fw-bold mb-3">Descubre Nuestro Catálogo</h2>
           <p class="lead text-dark">
             Transforma tus eventos en experiencias inolvidables con nuestra
             selección exclusiva de productos para alquiler. Desde vajilla de
@@ -271,7 +269,7 @@
         <!-- Columna de imagen -->
         <div class="col-md-5 order-md-2 text-center">
           <img
-            src="../Imagenes/Mobiliario/LuisXV.webp"
+            src="../Imagenes/MascotaPhone.webp"
             class="img-fluid rounded img-fixed"
             alt="Catálogo"
           />
@@ -287,10 +285,8 @@
         Todos
       </button>
       <button class="btn btn-crystal" data-categoria="Vajilla">Vajilla</button>
-      <button class="btn btn-crystal" data-categoria="Sillas">Sillas</button>
-      <button class="btn btn-crystal" data-categoria="Cristalería">
-        Cristalería
-      </button>
+      <button class="btn btn-crystal" data-categoria="Mobiliario">Mobiliario</button>
+      <button class="btn btn-crystal" data-categoria="Cristalería">Cristalería</button>
     </div>
     <!-- Separador-->
     <hr class="featurette-divider" />
@@ -302,119 +298,58 @@
         </div>
       </div>
     </section>
-
     <!-- Footer-->
     <footer class="footer py-5 border-top">
       <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
-          <div class="col mb-3">
-            <a
-              href="index.html"
-              class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
-            >
-              <img
-                src="../Imagenes/Iconos/Logo_Largo_11zon.webp"
-                alt="Logo Alquiladora Crystal"
-                class="logo-img"
-              />
-            </a>
-
-            <p class="text-body-secondary">
-              &copy; 2025 Todos los Derechos Reservados
-            </p>
-            <strong
-              >Renta de Mobiliario en Puebla. Renta de Mesas y Sillas en Puebla.
-              Alquiladora en Puebla.</strong
-            >
-            <!-- Redes Sociales -->
-            <div class="social-icons">
-              <a
-                href="https://www.facebook.com/AlquilerCrystal?mibextid=AEUHqQ"
-                target="_blank"
-                ><img
-                  src="../Imagenes/Iconos/Facebook-Icon_11zon.webp"
-                  alt="Logo Facebook Alquiladora Crystal"
-              /></a>
-              <a
-                href="https://www.instagram.com/crystal.alquiladora/"
-                target="_blank"
-                ><img
-                  src="../Imagenes/Iconos/Instagram-Icon_11zon.webp"
-                  alt="Logo Instagram Alquiladora Crystal"
-              /></a>
-              <a
-                href="https://api.whatsapp.com/message/QUYQH75BP5D6J1?autoload=1&app_absent=0"
-                target="_blank"
-                ><img
-                  src="../Imagenes/Iconos/WhatsApp-Icon_11zon.webp"
-                  alt="Logo WhatsApp Alquiladora Crystal"
-              /></a>
-            </div>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
+          <!-- Columna visible SIEMPRE -->
+              <div class="col mb-3 text-center">
+                  <a href="index.html" class="d-flex justify-content-center mb-3 link-body-emphasis text-decoration-none">
+                  <img src="../Imagenes/Iconos/Logo_Largo_11zon.webp" 
+                      alt="Logo Alquiladora Crystal" 
+                      class="logo-img">
+                  </a>
+                  <p class="text-body-secondary">&copy; 2025 Todos los Derechos Reservados</p>
+                  <strong>Renta de Mobiliario en Puebla. Renta de Mesas y Sillas en Puebla. Alquiladora en Puebla.</strong>
+      
+              <!-- Redes Sociales -->
+                  <div class="social-icons d-flex justify-content-center gap-2 mt-3">
+                  <a href="https://www.facebook.com/AlquilerCrystal?mibextid=AEUHqQ" target="_blank">
+                  <img src="../Imagenes/Iconos/Facebook-Icon_11zon.webp" alt="Logo Facebook Alquiladora Crystal">
+                  </a>
+                  <a href="https://www.instagram.com/crystal.alquiladora/" target="_blank">
+                  <img src="../Imagenes/Iconos/Instagram-Icon_11zon.webp" alt="Logo Instagram Alquiladora Crystal">
+                  </a>
+                  <a href="https://api.whatsapp.com/message/QUYQH75BP5D6J1?autoload=1&app_absent=0" target="_blank">
+                  <img src="../Imagenes/Iconos/WhatsApp-Icon_11zon.webp" alt="Logo WhatsApp Alquiladora Crystal">
+                  </a>
+              </div>
           </div>
-
-          <div class="col mb-3"></div>
-
-          <div class="col mb-3">
-            <h5>Horarios</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <span class="nav-link p-0 text-body-secondary"
-                  >Lun - Vier / 9:00 - 18:00</span
-                >
-              </li>
-              <li class="nav-item mb-2">
-                <span class="nav-link p-0 text-body-secondary"
-                  >Sábado / 9:00 - 17:00</span
-                >
-              </li>
-            </ul>
+          <!-- Las siguientes columnas estarán ocultas en móvil y visibles desde sm (≥576px) -->
+          <div class="col mb-3 d-none d-sm-block"></div>
+          <div class="col mb-3 d-none d-sm-block"></div>
+          <div class="col mb-3 d-none d-sm-block">
+              <h5>Productos</h5>
+              <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><span class="nav-link p-0 text-body-secondary">Mobiliario</span></li>
+                  <li class="nav-item mb-2"><span class="nav-link p-0 text-body-secondary">Vajilla</span></li>
+                  <li class="nav-item mb-2"><span class="nav-link p-0 text-body-secondary">Cristalería</span></li>
+                  <li class="nav-item mb-2"><span class="nav-link p-0 text-body-secondary">Mantelería</span></li>
+                  <li class="nav-item mb-2"><span class="nav-link p-0 text-body-secondary">Equipo de Servicio</span></li>
+                  <li class="nav-item mb-2"><span class="nav-link p-0 text-body-secondary">Equipo para Exteriores</span></li>
+              </ul>
           </div>
-
-          <div class="col mb-3">
-            <h5>Productos</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <span class="nav-link p-0 text-body-secondary">Mobiliario</span>
-              </li>
-              <li class="nav-item mb-2">
-                <span class="nav-link p-0 text-body-secondary">Vajilla</span>
-              </li>
-              <li class="nav-item mb-2">
-                <span class="nav-link p-0 text-body-secondary"
-                  >Cristalería</span
-                >
-              </li>
-              <li class="nav-item mb-2">
-                <span class="nav-link p-0 text-body-secondary">Mantelería</span>
-              </li>
-              <li class="nav-item mb-2">
-                <span class="nav-link p-0 text-body-secondary"
-                  >Equipo de Servicio</span
-                >
-              </li>
-              <li class="nav-item mb-2">
-                <span class="nav-link p-0 text-body-secondary"
-                  >Equipo para Exteriores</span
-                >
-              </li>
-            </ul>
+              <div class="col mb-3 d-none d-sm-block">
+                  <h5>Ubicación</h5>
+                  <p class="direccion">
+                  <strong>Alquiladora Crystal</strong><br>
+                  Blvd Valsequillo 1811, Universidades, Puebla, Pue, CP 72589
+                  </p>
+                  <a href="https://maps.app.goo.gl/fh4cqoXmTP5fTWQLA" target="_blank" rel="noopener noreferrer" class="direccion-link">
+                  Ver en Google Maps
+                  </a>
+              </div>
           </div>
-          <div class="col mb-3">
-            <h5>Ubicación</h5>
-            <p class="direccion">
-              <strong>Alquiladora Crystal</strong><br />
-              Blvd Valsequillo 1811, Universidades, Puebla, Pue, CP 72589
-            </p>
-            <a
-              href="https://maps.app.goo.gl/fh4cqoXmTP5fTWQLA"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="direccion-link"
-            >
-              Ver en Google Maps
-            </a>
-          </div>
-        </div>
       </div>
     </footer>
 
@@ -437,11 +372,12 @@
     </script>
     <script>
       let productos = [];
-
+      let mostrandoTodo = false; // <-- Estado global para alternar
+    
       document.addEventListener("DOMContentLoaded", () => {
         const contenedor = document.getElementById("catalogo-container");
         contenedor.innerHTML = `<p class="text-center text-primary">Cargando productos...</p>`;
-
+    
         fetch("catalogo.json")
           .then((response) => {
             if (!response.ok) throw new Error("No se pudo cargar el catálogo.");
@@ -454,56 +390,113 @@
           .catch((error) => {
             contenedor.innerHTML = `<p class="text-danger text-center">${error.message}</p>`;
           });
-
-        // Filtro
+    
         const botones = document.querySelectorAll(".btn-crystal");
         botones.forEach((btn) => {
           btn.addEventListener("click", () => {
             botones.forEach((b) => b.classList.remove("active"));
             btn.classList.add("active");
-
+    
             const categoria = btn.getAttribute("data-categoria").trim();
             mostrarProductos(categoria);
           });
         });
       });
-
+    
       function mostrarProductos(categoria) {
         const contenedor = document.getElementById("catalogo-container");
+        const contenedorPadre = contenedor.parentElement;
         contenedor.innerHTML = "";
-
+        mostrandoTodo = false;
+    
+        const botonAnterior = document.getElementById("ver-mas-btn");
+        if (botonAnterior) botonAnterior.remove();
+    
         const filtrados =
           categoria === "Todos"
             ? productos
             : productos.filter((prod) => prod.categoria.trim() === categoria);
-
+    
         if (filtrados.length === 0) {
           contenedor.innerHTML = `<p class="text-center">No hay productos en esta categoría.</p>`;
           return;
         }
-        filtrados.forEach((producto, index) => {
-          const card = `
-                    <div class="col-md-6 col-lg-4">
-                    <div class="card card-custom shadow-sm h-100 d-flex flex-column card-animada" style="animation-delay: ${
-                      index * 100
-                    }ms;">
-                        <img src="${
-                          producto.imagen
-                        }" class="card-img-top" alt="${producto.nombre}">
-                        <div class="card-body d-flex flex-column">
-                        <h5 class="card-title crystal-blue fw-bold">${
-                          producto.nombre
-                        }</h5>
-                        <p class="card-text crystal-blue flex-grow-1">${
-                          producto.descripcion
-                        }</p>
-                        </div>
-                    </div>
-                    </div>
-                `;
-          contenedor.innerHTML += card;
+    
+        const visibles = filtrados.slice(0, 4);
+        const ocultos = filtrados.slice(4);
+    
+        visibles.forEach((producto, index) => {
+          contenedor.innerHTML += crearCardProducto(producto, index, false);
         });
+    
+        activarColorSelector();
+    
+        if (ocultos.length > 0) {
+          const verMasBtn = document.createElement("button");
+          verMasBtn.id = "ver-mas-btn";
+          verMasBtn.className = "btn btn-primary mt-4";
+          verMasBtn.innerText = "Ver más";
+          verMasBtn.style.display = "block";
+          verMasBtn.style.margin = "0 auto";
+    
+          verMasBtn.addEventListener("click", () => {
+            if (!mostrandoTodo) {
+              ocultos.forEach((producto, index) => {
+                contenedor.innerHTML += crearCardProducto(producto, index + 8, true);
+              });
+              activarColorSelector();
+              verMasBtn.innerText = "Ver menos";
+              mostrandoTodo = true;
+            } else {
+              mostrarProductos(categoria); // Reinicia la vista
+            }
+          });
+    
+          contenedorPadre.appendChild(verMasBtn);
+        }
+      }
+    
+      function crearCardProducto(producto, index, conAnimacion) {
+        const colores = producto.variantes
+          ? Object.entries(producto.variantes)
+              .map(([color, ruta]) => {
+                return `<span class="color-dot" data-imagen="${ruta}" style="background-color: ${color};" title="${color}"></span>`;
+              })
+              .join("")
+          : "";
+    
+        return `
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center fade-in ${conAnimacion ? 'delay' : ''}">
+            <div class="card card-custom shadow-sm h-100 d-flex flex-column card-animada">
+              <img src="${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
+              <div class="card-body d-flex flex-column">
+                ${colores ? `<div class="d-flex gap-2 mb-2 color-selector">${colores}</div>` : ""}
+                <h5 class="card-title crystal-blue fw-bold">${producto.nombre}</h5>
+                <p class="card-text crystal-blue flex-grow-1">${producto.descripcion}</p>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+    
+      function activarColorSelector() {
+        setTimeout(() => {
+          document.querySelectorAll(".color-dot").forEach((dot) => {
+            dot.addEventListener("click", () => {
+              const nuevaImagen = dot.getAttribute("data-imagen");
+              const card = dot.closest(".card");
+              const img = card.querySelector(".card-img-top");
+    
+              img.src = nuevaImagen;
+    
+              card.querySelectorAll(".color-dot").forEach((d) => d.classList.remove("selected"));
+              dot.classList.add("selected");
+            });
+          });
+        }, 100);
       }
     </script>
+    
+    
   </body>
 </html>
