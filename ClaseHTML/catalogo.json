@@ -3,42 +3,42 @@
     "nombre": "Silla Infantil Colores",
     "descripcion": "¡Diversión y color para los más pequeños en tus eventos!",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Sillas/InfantilAmarillo.webp",
+    "imagen": "./Imagenes/Mobiliario/Sillas/InfantilAmarillo.webp",
     "variantes": {
-        "#0e1bc1": "../Imagenes/Mobiliario/Sillas/InfantilAzul.webp",
-        "#e6e800": "../Imagenes/Mobiliario/Sillas/InfantilAmarillo.webp",
-        "#0c7e07": "img/silla-verde.webp",
-        "#ce0704": "../Imagenes/Mobiliario/Sillas/InfantilRojo.webp"
+        "#0e1bc1": "./Imagenes/Mobiliario/Sillas/InfantilAzul.webp",
+        "#e6e800": "./Imagenes/Mobiliario/Sillas/InfantilAmarillo.webp",
+        "#0c7e07": "./Imagenes/Mobiliario/Sillas/InfantilVerde.webp",
+        "#ce0704": "./Imagenes/Mobiliario/Sillas/InfantilRojo.webp"
     }
 },
 {
     "nombre": "Silla Crossback",
     "descripcion": "Estilo rústico y elegancia que encantan en tus eventos .",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Sillas/Crossback.webp"
+    "imagen": "./Imagenes/Mobiliario/Sillas/Crossback.webp"
 },
 {
     "nombre": "Silla Luis XV",
     "descripcion": "Toque clásico y distinguido que realza cualquier montaje elegante.",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Sillas/LuisXV.webp"
+    "imagen": "./Imagenes/Mobiliario/Sillas/LuisXV.webp"
 },
 {
     "nombre": "Silla Acojinada",
     "descripcion": "Comodidad y funcionalidad para eventos, reuniones o conferencias.",
     "precio": "",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Sillas/Acojinada.webp"
+    "imagen": "./Imagenes/Mobiliario/Sillas/Acojinada.webp"
 },
 {
     "nombre": "Silla Tiffany",
     "descripcion": "La favorita en eventos, con clase, estilo y comodidad asegurada.",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Sillas/Tiffanybca.webp",
+    "imagen": "./Imagenes/Mobiliario/Sillas/Tiffanybca.webp",
     "variantes": {
-        "#f1f3fc": "../Imagenes/Mobiliario/Sillas/Tiffanybca.webp",
-        "#6e2c00": "../Imagenes/Mobiliario/Sillas/Tiffanych.webp",
-        "#778899": "../Imagenes/Mobiliario/Sillas/Tiffanyplata.webp"
+        "#f1f3fc": "./Imagenes/Mobiliario/Sillas/Tiffanybca.webp",
+        "#6e2c00": "./Imagenes/Mobiliario/Sillas/Tiffanych.webp",
+        "#778899": "./Imagenes/Mobiliario/Sillas/Tiffanyplata.webp"
     }
 },
 {
@@ -46,14 +46,14 @@
     "descripcion": "Perfecto para barras y cocteles, moderno, práctico y con gran presencia.  ",
     "precio": "",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Sillas/Banco.webp"
+    "imagen": "./Imagenes/Mobiliario/Sillas/Banco.webp"
 },
 {
     "nombre": "Banco Organico",
     "descripcion": "Perfecto para barras y cocteles, moderno, práctico y con gran presencia.  ",
     "precio": "",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Sillas/BancoOrganico.webp"
+    "imagen": "./Imagenes/Mobiliario/Sillas/BancoOrganico.webp"
 },
 
 
@@ -65,55 +65,55 @@
     "nombre": "Mesa Tablón",
     "descripcion": "Cristalería premium para banquetes y celebraciones especiales.",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Mesas/Tablon.webp"
+    "imagen": "./Imagenes/Mobiliario/Mesas/Tablon.webp"
 },
 {
     "nombre": "Mesa Redonda",
     "descripcion": "Cristalería premium para banquetes y celebraciones especiales.",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Mesas/MesaRedonda.webp"
+    "imagen": "./Imagenes/Mobiliario/Mesas/MesaRedonda.webp"
 },
 {
     "nombre": "Mesa Cuadrada",
     "descripcion": "Cristalería premium para banquetes y celebraciones especiales.",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Mesas/MesaCuadrada.webp"
+    "imagen": "./Imagenes/Mobiliario/Mesas/MesaCuadrada.webp"
 },
 {
     "nombre": "Mesa Organica",
     "descripcion": "Cristalería premium para banquetes y celebraciones especiales.",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Mesas/Organica.webp"
+    "imagen": "./Imagenes/Mobiliario/Mesas/Organica.webp"
 },
 {
     "nombre": "Mesa Vintage",
     "descripcion": "Cristalería premium para banquetes y celebraciones especiales.",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Mesas/Vintage.webp"
+    "imagen": "./Imagenes/Mobiliario/Mesas/Vintage.webp"
 },
 {
     "nombre": "Mesa Media Luna",
     "descripcion": "Cristalería premium para banquetes y celebraciones especiales.",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Mesas/MesaMediaLuna.webp"
+    "imagen": "./Imagenes/Mobiliario/Mesas/MesaMediaLuna.webp"
 },
 {
     "nombre": "Periquera Cristal",
     "descripcion": "Cristalería premium para banquetes y celebraciones especiales.",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Mesas/Cristal.webp"
+    "imagen": "./Imagenes/Mobiliario/Mesas/Cristal.webp"
 },
 {
     "nombre": "Periquera Madera",
     "descripcion": "Cristalería premium para banquetes y celebraciones especiales.",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Mesas/PeriqueraOrganica.webp"
+    "imagen": "./Imagenes/Mobiliario/Mesas/PeriqueraOrganica.webp"
 },
 {
     "nombre": "Periquera Vestida",
     "descripcion": "Cristalería premium para banquetes y celebraciones especiales.",
     "categoria": "Mobiliario",
-    "imagen": "../Imagenes/Mobiliario/Mesas/Vestida.webp"
+    "imagen": "./Imagenes/Mobiliario/Mesas/Vestida.webp"
 },
 
 
