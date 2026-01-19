@@ -2,30 +2,62 @@
 
 This repository contains the source code for the official website of **Alquiladora Crystal**, a real business dedicated to event equipment rental in Puebla, Mexico.
 
-The website was designed and developed to provide a professional online presence, showcase services and products, and facilitate customer contact and quotations through multiple channels.
+The project was designed, developed, and deployed with a **production mindset**, focusing on performance, accessibility, SEO, and real user experience.
+
+🌐 **Live website:** https://alquiladoracrystal.com/
 
 ---
 
 ## 🌐 Project Overview
 
-Alquiladora Crystal is a multi-page business website that includes:
+Alquiladora Crystal is a multi-page business website built to:
 
-- Service presentation
-- Product catalog
-- Company information
-- Contact details and location
-- WhatsApp-based quotation flow
+- Establish a professional online presence
+- Showcase services and rental catalog
+- Improve customer reach and visibility
+- Enable fast and direct quotation via WhatsApp
 
-The project focuses on **clarity, usability, performance, and SEO-friendly structure**, following real-world business requirements.
+The project follows modern web best practices and real-world business requirements.
+
+---
+
+## 🚀 Performance & Quality Metrics (Lighthouse)
+
+The website was audited using **Google Lighthouse**, achieving strong scores across all key areas:
+
+- ⚡ **Performance:** 95
+- ♿ **Accessibility:** 97
+- 🔍 **SEO:** 100
+- ✅ **Best Practices:** 96
+
+These results reflect careful attention to:
+- Optimized assets and images
+- Semantic HTML
+- Accessibility-friendly components
+- SEO-ready metadata
+- Clean and maintainable code
+
+---
+
+## ♿ Accessibility Focus
+
+Accessibility was considered from the beginning of the project:
+
+- Semantic HTML structure
+- Proper heading hierarchy
+- Alt attributes for images
+- Readable contrast and typography
+- Keyboard-friendly navigation
+
+This ensures the website is usable by a wide range of users and compliant with modern accessibility standards.
 
 ---
 
 ## 🧩 Pages Included
 
 - **Home (`index.html`)**
-  - Hero section
+  - Hero section and CTAs
   - Featured products
-  - Call-to-action buttons
   - FAQ section
 - **Services (`servicios.html`)**
   - Catering and banquet services
@@ -40,8 +72,7 @@ The project focuses on **clarity, usability, performance, and SEO-friendly struc
   - Mission, vision, and team
   - Image gallery
 - **Contact (`contacto.html`)**
-  - Business address
-  - Phone and email
+  - Business contact details
   - Embedded Google Maps location
 
 ---
@@ -50,31 +81,29 @@ The project focuses on **clarity, usability, performance, and SEO-friendly struc
 
 ### Frontend
 - HTML5
-- CSS3 (custom styles)
+- CSS3 (custom styling)
 - Bootstrap 5
 - JavaScript (Vanilla)
 
-### Data Handling
+### Data & Logic
 - JSON-based product catalog
-- Dynamic DOM rendering
+- Dynamic DOM rendering and filters
 
-### Assets & UX
-- WebP images for performance
+### UX & Optimization
 - Responsive design (mobile-first)
+- WebP images
+- Lazy loading
 - Floating WhatsApp contact button
-- Google Maps embed
 
 ---
 
-## ✨ Key Features
+## 🌍 Deployment
 
-- Fully responsive layout
-- SEO-oriented meta tags
-- Accessible navigation
-- Product catalog powered by JSON
-- Category filters without backend
-- Optimized images and lazy loading
-- Real business contact integration (WhatsApp)
+- **Hosting:** Vercel
+- **Custom Domain:** https://alquiladoracrystal.com/
+- **Production-ready build** with HTTPS and fast global delivery
+
+This project includes a complete **development → deployment → production** workflow.
 
 ---
 
@@ -82,12 +111,12 @@ The project focuses on **clarity, usability, performance, and SEO-friendly struc
 
 This project demonstrates my ability to:
 
-- Build a **real business website**, not a demo
-- Structure multi-page web applications
-- Apply responsive and accessible UI design
-- Use JavaScript for dynamic content rendering
-- Work with real assets, content, and SEO considerations
-- Translate business needs into technical solutions
+- Build and deploy a **real business website**
+- Apply **web performance optimization**
+- Follow **accessibility best practices**
+- Implement SEO-friendly structure
+- Work with real content, assets, and clients
+- Take a project from idea to production
 
 ---
 
