@@ -1,109 +1,130 @@
-# Alquiladora Crystal — Business Website
+# 🌐 Alquiladora Crystal — Business Website
 
-This repository contains the source code for the official website of **Alquiladora Crystal**, a real business dedicated to event equipment rental in Puebla, Mexico.
+🚀 Official website for **Alquiladora Crystal**, a real business dedicated to **event equipment rental** in Puebla, Mexico.
 
-The project was designed, developed, and deployed with a **production mindset**, focusing on performance, accessibility, SEO, and real user experience.
+This project was developed and deployed with a **production mindset**, focusing on **performance, accessibility, SEO, and real business needs**.
 
-🌐 **Live website:** https://alquiladoracrystal.com/
+🔗 **Live Website:** https://alquiladoracrystal.com/
 
 ---
 
-## 🌐 Project Overview
+## ✨ Project Overview
 
-Alquiladora Crystal is a multi-page business website built to:
+Alquiladora Crystal is a **multi-page static website** designed to:
 
 - Establish a professional online presence
-- Showcase services and rental catalog
-- Improve customer reach and visibility
-- Enable fast and direct quotation via WhatsApp
+- Showcase services and rental products
+- Improve visibility through SEO
+- Enable fast customer contact via WhatsApp
+- Deliver an optimized and accessible user experience
 
-The project follows modern web best practices and real-world business requirements.
+This is **not a demo or tutorial project** — it is a real-world business solution currently in use.
 
 ---
 
-## 🚀 Performance & Quality Metrics (Lighthouse)
+## 🚀 Performance & Quality (Lighthouse Report)
 
-The website was audited using **Google Lighthouse**, achieving strong scores across all key areas:
+Audited using **Google Lighthouse**, achieving excellent scores:
 
-- ⚡ **Performance:** 95
-- ♿ **Accessibility:** 97
-- 🔍 **SEO:** 100
-- ✅ **Best Practices:** 96
+- ⚡ **Performance:** **95**
+- ♿ **Accessibility:** **97**
+- 🔍 **SEO:** **100**
+- ✅ **Best Practices:** **96**
 
-These results reflect careful attention to:
+These results reflect:
 - Optimized assets and images
-- Semantic HTML
-- Accessibility-friendly components
+- Semantic HTML structure
+- Accessibility-first approach
 - SEO-ready metadata
 - Clean and maintainable code
 
 ---
 
-## ♿ Accessibility Focus
+## ♿ Accessibility Highlights
 
-Accessibility was considered from the beginning of the project:
+Accessibility was considered from the start:
 
-- Semantic HTML structure
+- Semantic HTML5 elements
 - Proper heading hierarchy
-- Alt attributes for images
-- Readable contrast and typography
+- Alt text for images
+- High-contrast readable typography
 - Keyboard-friendly navigation
 
-This ensures the website is usable by a wide range of users and compliant with modern accessibility standards.
+This ensures usability for a wide range of users and compliance with modern accessibility standards.
+
+---
+
+## 📊 Analytics & Monitoring
+
+The website integrates **Vercel Analytics**:
+
+- 📈 Privacy-friendly analytics (no cookies)
+- 🌍 Real-time traffic insights
+- 📱 Device and country tracking
+- ⚡ Zero impact on performance
+
+This allows continuous monitoring of real user behavior in production.
 
 ---
 
 ## 🧩 Pages Included
 
-- **Home (`index.html`)**
-  - Hero section and CTAs
+- 🏠 **Home (`index.html`)**
+  - Hero section
   - Featured products
+  - Call-to-action buttons
   - FAQ section
-- **Services (`servicios.html`)**
-  - Catering and banquet services
+- 🛠️ **Services (`servicios.html`)**
+  - Catering and banquets
   - Furniture rental
   - Tent installation
-- **Catalog (`catalogo.html`)**
+- 🗂️ **Catalog (`catalogo.html`)**
   - Dynamic product listing
-  - Category-based filtering
+  - Category-based filters
   - Data-driven rendering from JSON
-- **About Us (`nosotros.html`)**
+- 🏢 **About Us (`nosotros.html`)**
   - Company history
   - Mission, vision, and team
   - Image gallery
-- **Contact (`contacto.html`)**
-  - Business contact details
+- 📍 **Contact (`contacto.html`)**
+  - Address, phone, and email
   - Embedded Google Maps location
 
 ---
 
-## ⚙️ Tech Stack
+## 🧰 Tech Stack
 
-### Frontend
-- HTML5
-- CSS3 (custom styling)
-- Bootstrap 5
-- JavaScript (Vanilla)
+### 🌐 Frontend
+<p>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/HTML.svg" width="40"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/CSS.svg" width="40"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/JavaScript.svg" width="40"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Bootstrap.svg" width="40"/>
+</p>
 
-### Data & Logic
+### ⚙️ Data & Logic
+
 - JSON-based product catalog
-- Dynamic DOM rendering and filters
+- Dynamic DOM rendering and category filters
 
-### UX & Optimization
-- Responsive design (mobile-first)
-- WebP images
-- Lazy loading
-- Floating WhatsApp contact button
+### ☁️ Deployment & Tools
+<p>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Git.svg" width="40"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Light.svg" width="40"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vercel-Light.svg" width="40"/>
+</p>
 
 ---
 
 ## 🌍 Deployment
 
-- **Hosting:** Vercel
-- **Custom Domain:** https://alquiladoracrystal.com/
-- **Production-ready build** with HTTPS and fast global delivery
+- ☁️ **Hosting:** Vercel
+- 🔒 HTTPS enabled by default
+- 🌐 **Custom Domain:** https://alquiladoracrystal.com/
+- 🚀 Fast global CDN delivery
+- 📊 Integrated Vercel Analytics
 
-This project includes a complete **development → deployment → production** workflow.
+This project follows a full **development → deployment → production** workflow.
 
 ---
 
@@ -111,16 +132,17 @@ This project includes a complete **development → deployment → production** w
 
 This project demonstrates my ability to:
 
-- Build and deploy a **real business website**
+- Build a **real business website**
 - Apply **web performance optimization**
-- Follow **accessibility best practices**
-- Implement SEO-friendly structure
-- Work with real content, assets, and clients
-- Take a project from idea to production
+- Implement **accessibility best practices**
+- Achieve **excellent Lighthouse scores**
+- Integrate analytics without performance loss
+- Deploy production-ready projects with custom domains
+- Translate business requirements into technical solutions
 
 ---
 
-## 🚀 How to Run Locally
+## 🛠️ Run Locally
 
 1. Clone the repository:
    ```bash
